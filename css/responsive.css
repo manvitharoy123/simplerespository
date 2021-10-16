@@ -1,0 +1,161 @@
+/*
+-----------------------------
+|   | Small Devices
+-----------------------------
+*/
+
+@media(max-width:767px) {
+    
+    
+    .header-text,.header-btn{
+        text-align: center;
+    }
+    .header-text h1{
+        font-size: 25px;
+    }
+    .header-btn{
+        font-size: 15px;
+    }
+    
+     .header-text p{
+        font-size: 14px;
+    }
+    .header-iphone {
+        display: none;
+    }
+    .about-iphone img {
+        width: 100%;
+    }
+    .purchase-now .col-md-3 {
+        
+        text-align: center;
+        padding-top: 50px;
+    }
+}
+
+/*
+---------------------------------
+|   | Small Devices and tablates
+---------------------------------
+*/
+@media(min-width:768px) and (max-width:991px){
+    
+    .header-text,.header-btn{
+        text-align: center;
+    }
+    .header-text h1{
+        font-size: 25px;
+    }
+    .header-btn{
+        font-size: 15px;
+    }
+    
+     .header-text p{
+        font-size: 14px;
+    }
+    
+    /*Left Feature Item*/
+    .left-feature-item-icon{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    
+    }
+    .left-feature-item h3{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    
+    }
+    
+    .left-feature-item p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 13px;
+    }
+    
+    
+    /*Right Feature Item*/
+    .right-feature-item-icon{
+        width: 45px;
+        height: 45px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .right-feature-item h3{
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+
+    .right-feature-item p{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 13px;
+    }
+    
+
+}
+
+/*
+-----------------------------
+|   | Medium Devices/iPad pro
+-----------------------------
+*/
+@media(min-width:992px) and (max-width:1199px){
+    
+    /*Left Feature Item*/
+    .left-feature-item-icon{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    
+    }
+    .left-feature-item h3{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    
+    }
+    
+    .left-feature-item p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    }
+    
+    
+    /*Right Feature Item*/
+    .right-feature-item-icon{
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .right-feature-item h3{
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .right-feature-item p{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+    }
+}
+
+
+/*
+-----------------------------
+|   | Large
+-----------------------------
+*/
